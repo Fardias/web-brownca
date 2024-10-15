@@ -29,9 +29,9 @@ const products = [
     {
         id: 4,
         name: "Brownies Chocohips",
-        price: "25000",
+        price: "35000",
         image: "assets/images/chocochip-25gr.jpg",
-        desciption: "Brownies kukus spesial dengan berat 250 gram, dihiasi dengan topping choco chips yang banyak, perpaduan sempurna antara tekstur brownies yang lembut dan choco chips yang renyah.Cocok dinikmati kapan saja, baik untuk santapan pribadi maupun sebagai hidangan spesial.",
+        desciption: "Brownies kukus spesial dengan berat 250 gram, dihiasi dengan topping lelehan coklat lumer dan chocochips yang mewah, perpaduan sempurna antara tekstur brownies yang lembut dan chocochips yang renyah.Cocok dinikmati kapan saja, baik untuk santapan pribadi maupun sebagai hidangan spesial.",
         ukuran: "250",
         category: "chocochip",
     },

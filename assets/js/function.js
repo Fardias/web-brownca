@@ -37,7 +37,7 @@ function filterProducts() {
 
 function orderItem(product, qty)
 {
-    var message = `Misi Kak, mau PO ${product.name} ukuran ${product.ukuran} gram ${qty} Pcs kak`
+    var message = `Hai Kak, mau PO ${product.name} ukuran ${product.ukuran} gram ${qty} Pcs kak`
     var nowa = "62895383124968"
     window.open(`https://wa.me/${nowa}?text=${encodeURI(message)}`)
 }
