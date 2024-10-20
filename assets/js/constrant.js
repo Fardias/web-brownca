@@ -12,7 +12,7 @@ const products = [
         id: 2,
         name: "Brownies Almond",
         price: "25000",
-        image: "assets/images/kacang-35gr.jpg",
+        image: "assets/images/kacang-250gr.jpg",
         desciption: "Brownies kukus spesial dengan berat 250 gram, dilengkapi dengan kacang almond yang melimpah. Kombinasi kacang almond yang renyah dengan tekstur brownies yang lembut memberikan rasa yang lezat. Brownies ini cocok untuk dinikmati kapan saja, baik sebagai camilan santai maupun hidangan spesial di berbagai acara.",
         ukuran: "250",
         category: "kacang",
