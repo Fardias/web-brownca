@@ -74,11 +74,11 @@ $(document).ready(function () {
         $('#productGrid').append(productItem);
     })
 
-    $(".detail-product-title").text(getDetailProduct().name);
-    $(".detail-product-description").text(getDetailProduct().desciption);
-    $(".detail-product-price").html(formattedPrice(getDetailProduct().price))
-    $(".image-product").attr("src", getDetailProduct().image);
-    $(".image-product").attr("alt", getDetailProduct().name);
+    $(".detail-product-title").text(getDetailProduct()?.name );
+    $(".detail-product-description").text(getDetailProduct()?.desciption );
+    $(".detail-product-price").html(formattedPrice(getDetailProduct()?.price) );
+    $(".image-product").attr("src", getDetailProduct()?.image );
+    $(".image-product").attr("alt", getDetailProduct()?.name );
 
     // toggle menu
     const menuButton = $("#menuButton");
