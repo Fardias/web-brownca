@@ -457,10 +457,14 @@ html {
 .menu-size-link {
   cursor: pointer;
   font-weight: 500;
+  transition: all 0.1s ease;
 }
+
+
 
 .menu-size-link:hover {
   color: undefined;
+  transform: scale(0.95);
 }
 
 .menu-size-link:hover:hover {
@@ -489,7 +493,7 @@ html {
 .card {
   overflow: hidden;
   border-radius: 0.5rem;
-  background-color: #583632;
+  background-color:  #eee2ca;
   box-shadow: 0 0 #0000, 0 0 #0000, 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
 }
 
@@ -510,7 +514,7 @@ html {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
-  color: #e3d1c5;
+  color: #583632;
 }
 
 .card-content {
@@ -520,7 +524,7 @@ html {
 }
 
 .card-price {
-  color: #e3d1c5;
+  color: #583632;
 }
 
 .card-button {
@@ -529,7 +533,7 @@ html {
   max-width: 10rem;
   cursor: pointer;
   border-radius: 0.5rem;
-  background-color: #e3d1c5;
+  background-color:  #63402b;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -538,7 +542,7 @@ html {
   line-height: 1rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: #63402b;
+  color: #e3d1c5;
 }
 
 .card-button:hover {
